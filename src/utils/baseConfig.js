@@ -157,7 +157,9 @@ export const SECURITY_CONFIG = mergeDeep(DEFAULT_SECURITY_CONFIG, getConfig('SEC
 
 // 授权的前端域名列表
 const DEFAULT_AUTHORIZED_DOMAINS = [
-  'panghu.com',
+  'rtx.al',
+  '114514.rtx.al',
+  'shriko.sbs',
   // 在此处添加您授权的其他域名
 ];
 
@@ -169,7 +171,7 @@ export const AUTHORIZED_DOMAINS = getConfig('AUTHORIZED_DOMAINS', DEFAULT_AUTHOR
  */
 const DEFAULT_CAPTCHA_CONFIG = {
   // 验证方式: 'google' 或 'cloudflare'
-  captchaType: 'google',
+  captchaType: 'cloudflare',
   
   // Google reCAPTCHA 配置 默认v2
   google: {
@@ -202,9 +204,9 @@ export const CUSTOM_HEADERS_CONFIG = mergeDeep(DEFAULT_CUSTOM_HEADERS_CONFIG, ge
 
 // 网站名称配置
 const DEFAULT_SITE_CONFIG = {
-  siteName: 'EZ THEME',
-  siteDescription: 'EZ UI',
-  copyright: `© ${new Date().getFullYear()} EZ THEME. All Rights Reserved.`,
+  siteName: 'DoriyaNet',
+  siteDescription: 'Meow~',
+  copyright: `© ${new Date().getFullYear()} DoriyaNetwork. All Rights Reserved.`,
   
   // 是否显示标题中的网站Logo (true=显示, false=隐藏)
   showLogo: true,
@@ -406,10 +408,10 @@ const DEFAULT_SHOP_CONFIG = {
   hidePeriodTabs: false,
   
   // 库存紧张的阈值（当库存数量小于等于此值且大于0时显示库存紧张）
-  lowStockThreshold: 5,
+  lowStockThreshold: 10,
   
   // 是否启用周期折扣计算显示 (true=启用, false=禁用)
-  enableDiscountCalculation: true,
+  enableDiscountCalculation: false,
   
   // 价格周期的显示顺序（从大到小）
   periodOrder: [

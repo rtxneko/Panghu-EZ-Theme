@@ -9,7 +9,7 @@ window.EZ_CONFIG = {
   LICENSE_CODE: '', // EZ THEME的授权码 确保下方 SiteName 修改完成
 
   // 面板类型配置 - 请选择您使用的面板类型
-  PANEL_TYPE: 'V2board', // 可选值: 'V2board', 'Xiao-V2board' 或 'Xboard'
+  PANEL_TYPE: 'Xboard', // 可选值: 'V2board', 'Xiao-V2board' 或 'Xboard'
   // 说明: 
   // 1. V2board: 标准V2board面板，使用默认请求格式
   // 2. Xiao-V2board: Xiao修改版面板，使用特殊格式的请求参数
@@ -29,9 +29,8 @@ window.EZ_CONFIG = {
     // 支持字符串形式(单个API地址)或数组形式(多个备选API地址)
     // 多个地址时，会按顺序检测可用性，并使用第一个可用的地址
     staticBaseUrl: [
-      'https://panghu.com/api/v1',
-      'https://panghu.com/api/v1',
-      'https://panghu.com/api/v1'
+      'https://asdf.shriko.sbs/api/v1',
+      'https://sbs.shriko.sbs/api/v1'
     ],
     
     // 自动获取模式配置 (urlMode = 'auto'时使用)
@@ -52,7 +51,7 @@ window.EZ_CONFIG = {
   API_MIDDLEWARE_ENABLED: false,
   
   // 中间件服务器URL (不含路径)
-  API_MIDDLEWARE_URL: 'https://panghu.com',
+  API_MIDDLEWARE_URL: 'https://sbs.shriko.sbs',
   
   // 中间件路由前缀 (与中间件服务器配置保持一致)
   API_MIDDLEWARE_PATH: '/ez/ez',
@@ -61,10 +60,10 @@ window.EZ_CONFIG = {
   
   // ====================  网站基础配置  ====================
   SITE_CONFIG: {
-    siteName: 'EZ THEME',
-    siteDescription: 'EZ UI',
+    siteName: 'DoriyaNetwork',
+    siteDescription: 'DoriyaNet',
     // copyright会自动使用当前年份
-    copyright: `© ${new Date().getFullYear()} EZ THEME. All Rights Reserved.`,
+    copyright: `© ${new Date().getFullYear()} DoriyaNetwork. All Rights Reserved.`,
     
     // 是否显示标题中的网站Logo (true=显示, false=隐藏)
     showLogo: true,
@@ -254,7 +253,7 @@ window.EZ_CONFIG = {
   // 客户端下载配置
   CLIENT_CONFIG: {
     // 整个下载卡片显示控制
-    showDownloadCard: true,
+    showDownloadCard: false,
 
     // 平台显示控制 (true=显示, false=隐藏)
     showIOS: true,
