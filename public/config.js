@@ -29,7 +29,7 @@ window.EZ_CONFIG = {
     // 支持字符串形式(单个API地址)或数组形式(多个备选API地址)
     // 多个地址时，会按顺序检测可用性，并使用第一个可用的地址
     staticBaseUrl: [
-      'https://114514.rtx.al/api/v1',
+      'https://cdn.asdf.shriko.sbs/api/v1',
     ],
     
     // 自动获取模式配置 (urlMode = 'auto'时使用)
@@ -50,7 +50,7 @@ window.EZ_CONFIG = {
   API_MIDDLEWARE_ENABLED: false,
   
   // 中间件服务器URL (不含路径)
-  API_MIDDLEWARE_URL: 'https://114514.rtx.al',
+  API_MIDDLEWARE_URL: 'https://cdn.asdf.shriko.sbs',
   
   // 中间件路由前缀 (与中间件服务器配置保持一致)
   API_MIDDLEWARE_PATH: '/api/v1/',
@@ -233,7 +233,7 @@ window.EZ_CONFIG = {
     enableResetTraffic: true,
     
     // 重置流量按钮显示条件 ('always'=始终显示, 'low'=流量低于阈值时显示, 'depleted'=流量耗尽时显示)
-    resetTrafficDisplayMode: 'always',
+    resetTrafficDisplayMode: 'low',
     
     // 低流量阈值百分比 (1-100)，当剩余流量百分比低于此值时触发低流量警告
     lowTrafficThreshold: 10,
