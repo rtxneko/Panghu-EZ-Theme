@@ -94,7 +94,7 @@ window.EZ_CONFIG = {
     defaultTheme: 'light',
 
     // 主题色 (16进制颜色值)
-    primaryColor: '#355cc2',
+    primaryColor: '#39C5BB',
 
     // 是否启用落地页 (true=启用, false=禁用) 
     enableLandingPage: true // 默认启用
@@ -117,7 +117,7 @@ window.EZ_CONFIG = {
     // 认证页面弹窗公告配置
     popup: {
       // 是否启用弹窗
-      enabled: false,
+      enabled: true,
       
       // 弹窗标题
       title: "用户须知 (可自定义开启)",
@@ -136,14 +136,14 @@ window.EZ_CONFIG = {
   // 认证页面布局配置
   AUTH_LAYOUT_CONFIG: {
     // 布局类型: 'center' 为居中卡片布局, 'split' 为左右分栏布局
-    layoutType: 'center',
+    layoutType: 'split',
     
     // 左右分栏布局配置 (仅当 layoutType 为 'split' 时生效)
     splitLayout: {
       // 左侧区域内容配置
       leftContent: {
         // 左侧背景图片URL或路径 (如不设置则不设置图片背景)
-        backgroundImage: 'https://www.loliapi.com/acg',
+        backgroundImage: 'https://shriko.imgix.net/illust_114369152_20240509_225747.jpg',
         
         // 左上角网站名称配置
         siteName: {
@@ -167,7 +167,7 @@ window.EZ_CONFIG = {
   // 商店页面配置
   SHOP_CONFIG: {
     // 是否在商店导航上显示热销标记
-    showHotSaleBadge: false,
+    showHotSaleBadge: true,
 
     // 是否显示套餐特性卡片 (true=显示, false=隐藏)
     showPlanFeatureCards: true, // 默认显示
@@ -179,10 +179,10 @@ window.EZ_CONFIG = {
     hidePeriodTabs: false, // 默认显示周期选择标签
     
     // 库存紧张的阈值（当库存数量小于等于此值且大于0时显示库存紧张）
-    lowStockThreshold: 5,
+    lowStockThreshold: 10,
     
     // 是否启用周期折扣计算显示 (true=启用, false=禁用)
-    enableDiscountCalculation: true, // 默认启用
+    enableDiscountCalculation: false, // 默认启用
     
     // 价格周期的显示顺序（从大到小）
     periodOrder: [
