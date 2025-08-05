@@ -119,7 +119,7 @@ window.EZ_CONFIG = {
       enabled: true,
       
       // 弹窗标题
-      title: "用户须知 (可自定义开启)",
+      title: "用户须知",
       
       // 弹窗内容 (支持HTML)
       content: "<p><strong>欢迎使用我们的服务！</strong></p><p>请注意以下事项：</p><ul><li>请妥善保管您的账号信息</li><li>如有问题请联系客服</li></ul>",
