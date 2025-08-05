@@ -50,7 +50,7 @@ window.EZ_CONFIG = {
   API_MIDDLEWARE_ENABLED: false,
   
   // 中间件服务器URL (不含路径)
-  API_MIDDLEWARE_URL: 'http://asdf.shriko.sbs',
+  API_MIDDLEWARE_URL: 'https://asdf.shriko.sbs',
   
   // 中间件路由前缀 (与中间件服务器配置保持一致)
   API_MIDDLEWARE_PATH: '/api/v1/',
