@@ -47,7 +47,7 @@ window.EZ_CONFIG = {
   
   // 是否启用中间件代理API请求
   // 设置为true时，所有API请求将通过中间件转发
-  API_MIDDLEWARE_ENABLED: false,
+  API_MIDDLEWARE_ENABLED: true,
   
   // 中间件服务器URL (不含路径)
   API_MIDDLEWARE_URL: 'https://cdn.asdf.shriko.sbs',
