@@ -582,9 +582,9 @@ export default {
 
   .site-logo-img {
 
-    height: 60px;
+    height: 100px;
 
-    width: 60px;
+    width: 100px;
 
     border-radius: 10px;
 
