@@ -347,12 +347,12 @@ window.EZ_CONFIG = {
   // 验证码配置
   CAPTCHA_CONFIG: {
     // 验证方式: 'google' 或 'cloudflare'
-    captchaType: 'cloudflare', // 可选值: 'google' 或 'cloudflare'
+    captchaType: 'google', // 可选值: 'google' 或 'cloudflare'
     
     // Google reCAPTCHA 配置 默认v2版本
     google: {
       // 验证API地址，可选，默认使用官方地址
-      verifyUrl: 'https://www.google.com/recaptcha/api/siteverify'
+      verifyUrl: 'https://recaptcha.net/recaptcha/api/siteverify'
     },
     
     // Cloudflare Turnstile 配置
