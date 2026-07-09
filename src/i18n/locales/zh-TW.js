@@ -242,6 +242,13 @@ export default {
     dashboard: '儀表板',
     shop: '商店',
     invite: '邀請',
+    docs: '文件',
+    tickets: '工單',
+    orders: '訂單',
+    nodes: '節點',
+    traffic: '流量',
+    wallet: '錢包',
+    profile: '帳號',
     more: '更多',
     commission: '返利',
     hotSale: '熱銷'
@@ -369,7 +376,16 @@ export default {
     
     largeScreenNotice: '偵測到較大螢幕',
     switchToDesktop: '建議使用電腦端工單頁面以獲得更好的體驗',
-    switchToDesktopView: '切換到電腦端視圖'
+    switchToDesktopView: '切換到電腦端視圖',
+    popup: {
+            close_btn: '關閉',
+            wait_close_btn: '{seconds}秒後關閉'
+        },
+    upPictures: '上傳圖片',
+    uploadingImages: '上傳中...',
+    uploadTipText: '拖曳圖片到此處或點擊上傳',
+    uploadDescText: '支援 JPG、PNG、GIF 格式，最大 5 MB',
+    uploadSuccess: '圖片上傳成功'
   },
   profile: {
     title: '用戶中心',
@@ -382,10 +398,13 @@ export default {
     createdAt: '建立時間',
     expiredAt: '到期時間',
     notifications: '通知設定',
+    accountSettings: '帳號設定',
     expireRemind: '到期提醒',
     trafficRemind: '流量提醒',
+    autoRenewal: '自動續費',
     expireRemindDesc: '接收帳戶到期提醒郵件',
     trafficRemindDesc: '接收流量用盡提醒郵件',
+    autoRenewalDesc: '到期時自動續費套餐',
     security: '安全設定',
     changePassword: '修改密碼',
     changePasswordTitle: '修改帳戶密碼',
@@ -522,7 +541,7 @@ export default {
     popup: {
       close_btn: '我知道了',
       wait_close_btn: '請等待 {seconds} 秒'
-    }
+    },
   },
   order: {
     title: '確認訂單',
@@ -759,6 +778,7 @@ export default {
   docs: {
     title: '文件中心',
     searchPlaceholder: '搜尋文件...',
+    noAccessPrompt: '您目前沒有有效的套餐，購買套餐後即可檢視該區域的內容',
     loading: '正在載入文件...',
     retry: '重試',
     clearSearch: '清除搜尋',

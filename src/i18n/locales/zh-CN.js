@@ -245,6 +245,13 @@ export default {
         dashboard: '仪表盘',
         shop: '商店',
         invite: '邀请',
+        docs: '文档',
+        tickets: '工单',
+        orders: '订单',
+        nodes: '节点',
+        traffic: '流量',
+        wallet: '钱包',
+        profile: '账号',
         more: '更多',
         commission: '返利',
         hotSale: '热销'
@@ -252,6 +259,7 @@ export default {
     more: {
         title: '更多功能',
         description: '探索更多功能和服务',
+        inviteDescription: '邀请好友获得返佣奖励',
         viewHelp: '查看使用帮助和常见问题',
         viewNodes: '查看可用的服务器节点',
         manageOrders: '管理您的订单',
@@ -376,7 +384,12 @@ export default {
         popup: {
             close_btn: '关闭',
             wait_close_btn: '{seconds}秒后关闭'
-        }
+        },
+        upPictures: '上传图片',
+        uploadingImages: '上传中...',
+        uploadTipText: '拖拽图片到此处或点击上传',
+        uploadDescText: '支持 JPG、PNG、GIF 格式，最大 5 MB',
+        uploadSuccess: '图片上传成功',
     },
     profile: {
         title: '用户中心',
@@ -389,10 +402,13 @@ export default {
         createdAt: '创建时间',
         expiredAt: '到期时间',
         notifications: '通知设置',
+        accountSettings: '账号设置',
         expireRemind: '到期提醒',
         trafficRemind: '流量提醒',
+        autoRenewal: '自动续费',
         expireRemindDesc: '接收账户到期提醒邮件',
         trafficRemindDesc: '接收流量用尽提醒邮件',
+        autoRenewalDesc: '到期时自动续费套餐',
         security: '安全设置',
         changePassword: '修改密码',
         changePasswordTitle: '修改账户密码',
@@ -768,6 +784,7 @@ export default {
     docs: {
         title: '文档中心',
         searchPlaceholder: '搜索文档...',
+        noAccessPrompt: '您目前没有有效的套餐，购买套餐后即可查看该区域的内容',
         loading: '正在加载文档...',
         retry: '重试',
         clearSearch: '清除搜索',

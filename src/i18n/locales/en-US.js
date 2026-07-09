@@ -245,6 +245,13 @@ export default {
         dashboard: 'Dashboard',
         shop: 'Shop',
         invite: 'Invite',
+        docs: 'Docs',
+        tickets: 'Tickets',
+        orders: 'Orders',
+        nodes: 'Nodes',
+        wallet: 'Wallet',
+        traffic: 'Traffic',
+        profile: 'Profile',
         more: 'More',
         commission: 'Commission',
         hotSale: 'Hot'
@@ -252,6 +259,7 @@ export default {
     more: {
         title: 'More Features',
         description: 'Explore more features and services',
+        inviteDescription: 'Invite friends to earn commission rewards',
         viewHelp: 'View help and FAQs',
         viewNodes: 'View available server nodes',
         manageOrders: 'Manage your orders',
@@ -377,7 +385,12 @@ export default {
         popup: {
             close_btn: 'Close',
             wait_close_btn: 'Close in {seconds}s'
-        }
+        },
+        upPictures: 'Upload images',
+        uploadingImages: 'Uploading images...',
+        uploadTipText: 'Drag and drop images here or click to upload',
+        uploadDescText: 'Supports JPG, PNG, GIF formats, up to 5 MB',
+        uploadSuccess: 'Image uploaded successfully',
     },
     profile: {
         title: 'User Center',
@@ -390,10 +403,13 @@ export default {
         createdAt: 'Created At',
         expiredAt: 'Expiry Date',
         notifications: 'Notification Settings',
+        accountSettings: 'Account Settings',
         expireRemind: 'Expiry Reminder',
         trafficRemind: 'Traffic Reminder',
+        autoRenewal: 'Auto Renewal',
         expireRemindDesc: 'Receive account expiry reminder emails',
         trafficRemindDesc: 'Receive traffic exhaustion reminder emails',
+        autoRenewalDesc: 'Automatically renew plan when expired',
         security: 'Security Settings',
         changePassword: 'Change Password',
         changePasswordTitle: 'Change Account Password',
@@ -768,6 +784,7 @@ export default {
     docs: {
         title: 'Documentation Center',
         searchPlaceholder: 'Search documentation...',
+        noAccessPrompt: 'You currently have no active plan. Purchase a plan to view content in this section',
         loading: 'Loading documentation...',
         retry: 'Retry',
         clearSearch: 'Clear Search',

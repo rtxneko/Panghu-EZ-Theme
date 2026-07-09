@@ -242,6 +242,13 @@ export default {
     dashboard: 'Панель управления',
     shop: 'Магазин',
     invite: 'Приглашение',
+    docs: 'Документы',
+    tickets: 'Тикеты',
+    orders: 'Заказы',
+    nodes: 'Узлы',
+    traffic: 'Трафик',
+    wallet: 'Кошелек',
+    profile: 'Профиль',
     more: 'Еще',
     commission: 'Комиссия',
     hotSale: 'Горячие продажи'
@@ -374,6 +381,12 @@ export default {
       close_btn: 'Закрыть',
       wait_close_btn: 'Закрыть через {seconds} с'
     }
+    ,
+    upPictures: 'Загрузить изображения',
+    uploadingImages: 'Загрузка...',
+    uploadTipText: 'Перетащите изображения сюда или нажмите для загрузки',
+    uploadDescText: 'Поддерживаются форматы JPG, PNG, GIF, до 5 МБ',
+    uploadSuccess: 'Изображение успешно загружено',
   },
   profile: {
     title: 'Центр пользователя',
@@ -386,10 +399,13 @@ export default {
     createdAt: 'Дата создания',
     expiredAt: 'Дата окончания',
     notifications: 'Настройки уведомлений',
+    accountSettings: 'Настройки аккаунта',
     expireRemind: 'Напоминание об истечении',
     trafficRemind: 'Напоминание о трафике',
+    autoRenewal: 'Автопродление',
     expireRemindDesc: 'Получать письма о сроке действия аккаунта',
     trafficRemindDesc: 'Получать письма об исчерпании трафика',
+    autoRenewalDesc: 'Автоматически продлевать план при истечении',
     security: 'Настройки безопасности',
     changePassword: 'Изменить пароль',
     changePasswordTitle: 'Изменить пароль аккаунта',
@@ -763,6 +779,7 @@ export default {
   docs: {
     title: 'Центр документации',
     searchPlaceholder: 'Поиск документации...',
+    noAccessPrompt: 'У вас нет активного плана. Купите план, чтобы просматривать содержимое этого раздела',
     loading: 'Загрузка документации...',
     retry: 'Повторить',
     clearSearch: 'Очистить поиск',

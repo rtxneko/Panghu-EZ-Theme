@@ -242,6 +242,13 @@ export default {
     dashboard: 'ダッシュボード',
     shop: 'ストア',
     invite: '招待',
+    docs: 'ドキュメント',
+    tickets: 'チケット',
+    orders: '注文',
+    nodes: 'ノード',
+    traffic: 'トラフィック',
+    wallet: 'ウォレット',
+    profile: 'プロフィール',
     more: 'もっと見る',
     commission: 'リベート',
     hotSale: '人気'
@@ -374,6 +381,12 @@ export default {
       close_btn: '閉じる',
       wait_close_btn: '{seconds}秒後に閉じる'
     }
+    ,
+    upPictures: '画像をアップロード',
+    uploadingImages: 'アップロード中...',
+    uploadTipText: 'ここに画像をドラッグ＆ドロップするか、クリックしてアップロード',
+    uploadDescText: 'JPG、PNG、GIF 形式に対応、最大 5 MB',
+    uploadSuccess: '画像アップロード成功',
   },
   profile: {
     title: 'ユーザーセンター',
@@ -386,10 +399,13 @@ export default {
     createdAt: '作成日',
     expiredAt: '有効期限',
     notifications: '通知設定',
+    accountSettings: 'アカウント設定',
     expireRemind: '有効期限リマインダー',
     trafficRemind: '流量リマインダー',
+    autoRenewal: '自動更新',
     expireRemindDesc: 'アカウント有効期限リマインダーメールを受信',
     trafficRemindDesc: '流量使い切りのリマインダーメールを受信',
+    autoRenewalDesc: '有効期限切れ時に自動的にプランを更新',
     security: 'セキュリティ設定',
     changePassword: 'パスワード変更',
     changePasswordTitle: 'アカウントパスワード変更',
@@ -763,6 +779,7 @@ export default {
   docs: {
     title: 'ドキュメントセンター',
     searchPlaceholder: 'ドキュメント検索...',
+    noAccessPrompt: '現在有効なプランがありません。プランを購入すると本セクションの内容を閲覧できます',
     loading: 'ドキュメント読み込み中...',
     retry: '再試行',
     clearSearch: '検索クリア',

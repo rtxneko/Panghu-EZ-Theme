@@ -242,6 +242,13 @@ export default {
     dashboard: 'داشبورد',
     shop: 'فروشگاه',
     invite: 'دعوت',
+    docs: 'مستندات',
+    tickets: 'تیکت‌ها',
+    orders: 'سفارش‌ها',
+    nodes: 'نودها',
+    traffic: 'ترافیک',
+    wallet: 'کیف پول',
+    profile: 'پروفایل',
     more: 'بیشتر',
     commission: 'کمیسیون',
     hotSale: 'فروش داغ'
@@ -373,7 +380,13 @@ export default {
     popup: {
       close_btn: 'بستن',
       wait_close_btn: 'بستن در {seconds} ثانیه'
-    },
+    }
+    ,
+    upPictures: 'آپلود تصاویر',
+    uploadingImages: 'در حال آپلود...',
+    uploadTipText: 'تصاویر را اینجا بکشید و رها کنید یا برای آپلود کلیک کنید',
+    uploadDescText: 'پشتیبانی از فرمت‌های JPG، PNG، GIF تا 5 مگابایت',
+    uploadSuccess: 'تصویر با موفقیت آپلود شد',
   },
   profile: {
     title: 'مرکز کاربر',
@@ -386,10 +399,13 @@ export default {
     createdAt: 'زمان ایجاد',
     expiredAt: 'زمان انقضا',
     notifications: 'تنظیمات اطلاع رسانی',
+    accountSettings: 'تنظیمات حساب',
     expireRemind: 'یادآوری انقضا',
     trafficRemind: 'یادآوری ترافیک',
+    autoRenewal: 'تمدید خودکار',
     expireRemindDesc: 'دریافت ایمیل یادآوری انقضا حساب',
     trafficRemindDesc: 'دریافت ایمیل یادآوری ترافیک تمام شده',
+    autoRenewalDesc: 'تمدید خودکار بسته هنگام انقضا',
     security: 'تنظیمات امنیت',
     changePassword: 'تغییر پسورد',
     changePasswordTitle: 'تغییر پسورد حساب',
@@ -763,6 +779,7 @@ export default {
   docs: {
     title: 'مرکز مستندات',
     searchPlaceholder: 'جستجوی مستندات...',
+    noAccessPrompt: 'شما در حال حاضر طرح فعال ندارید. برای مشاهده محتوای این بخش، یک طرح خریداری کنید',
     loading: 'در حال بارگذاری مستندات...',
     retry: 'دوباره امتحان کنید',
     clearSearch: 'پاک کردن جستجو',

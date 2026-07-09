@@ -242,6 +242,13 @@ export default {
     dashboard: '대시보드',
     shop: '상점',
     invite: '초대',
+    docs: '문서',
+    tickets: '티켓',
+    orders: '주문',
+    nodes: '노드',
+    traffic: '트래픽',
+    wallet: '지갑',
+    profile: '프로필',
     more: '더 보기',
     commission: '커미션',
     hotSale: '인기 상품'
@@ -375,6 +382,12 @@ export default {
       close_btn: '닫기',
       wait_close_btn: '{seconds}초 후 닫기'
     }
+    ,
+    upPictures: '이미지 업로드',
+    uploadingImages: '업로드 중...',
+    uploadTipText: '이미지를 이곳에 드래그하거나 클릭하여 업로드',
+    uploadDescText: 'JPG, PNG, GIF 형식 지원, 최대 5 MB',
+    uploadSuccess: '이미지 업로드 성공',
   },
   profile: {
     title: '사용자 센터',
@@ -387,10 +400,13 @@ export default {
     createdAt: '생성 시간',
     expiredAt: '만료 시간',
     notifications: '알림 설정',
+    accountSettings: '계정 설정',
     expireRemind: '만료 알림',
     trafficRemind: '트래픽 알림',
+    autoRenewal: '자동 갱신',
     expireRemindDesc: '계정 만료 알림 이메일 수신',
     trafficRemindDesc: '트래픽 소진 알림 이메일 수신',
+    autoRenewalDesc: '만료 시 플랜 자동 갱신',
     security: '보안 설정',
     changePassword: '비밀번호 변경',
     changePasswordTitle: '계정 비밀번호 변경',
@@ -764,6 +780,7 @@ export default {
   docs: {
     title: '문서 센터',
     searchPlaceholder: '문서 검색...',
+    noAccessPrompt: '현재 유효한 플랜이 없습니다. 플랜을 구매하면 이 영역의 콘텐츠를 볼 수 있습니다',
     loading: '문서 로딩 중...',
     retry: '재시도',
     clearSearch: '검색 지우기',
